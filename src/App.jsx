@@ -14,7 +14,8 @@ function MainPage() {
   const gridRef = useRef(null);
   const sections = [
     { name: "소개", ref: heroRef },
-    { name: "추천 기업", ref: gridRef }
+    { name: "추천 기업", ref: gridRef },
+    { name: "gd" }
   ];
 
   return (
