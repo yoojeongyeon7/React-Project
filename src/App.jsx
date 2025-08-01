@@ -15,7 +15,8 @@ function MainPage() {
   const sections = [
     { name: "소개", ref: heroRef },
     { name: "추천 기업", ref: gridRef },
-    { name: "gd" }
+    { name: "gd" },
+    { name: "fwfw" }
   ];
 
   return (
