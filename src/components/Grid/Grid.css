@@ -1,0 +1,16 @@
+.grid-section {
+  padding: 60px 0 100px 0;
+}
+
+.grid-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
