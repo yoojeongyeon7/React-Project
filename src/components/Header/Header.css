@@ -22,7 +22,9 @@
 .nav {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav button {
